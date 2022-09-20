@@ -6,6 +6,22 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.StringTokenizer;
 
+/*
+
+P P P P | P P <- this pair
+
+needs one more (P, P)
+
+P P P P | P P P P
+
+P P | P P | P P | P P
+
+8 elements or 4 pairs
+
+count2 must be >= 4 (2 pairs for square + 2 pairs for rectangle)
+
+ */
+
 public class AuthorSol {
 	
 	public static void main(String[] args) {	
